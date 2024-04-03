@@ -1,0 +1,59 @@
+// {
+//   "compilerOptions": {
+//     // Enable latest features
+//     "lib": ["ESNext", "DOM"],
+//     "target": "ES2022",
+//     "module": "NodeNext",
+//     "moduleDetection": "force",
+//     "jsx": "react-jsx",
+//     "allowJs": true,
+
+//     // Bundler mode
+//     // "moduleResolution": "bundler",
+//     "allowImportingTsExtensions": true,
+//     "verbatimModuleSyntax": true,
+//     "noEmit": true,
+
+//     // Best practices
+//     "strict": true,
+//     "skipLibCheck": true,
+//     "noFallthroughCasesInSwitch": true,
+
+//     "useDefineForClassFields": true,
+
+//     /* Bundler mode */
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+
+//     /* Linting */
+//     "noUnusedLocals": true,
+//     "noUnusedParameters": true,
+//     "outDir": "dist"
+//   },
+//   "include": ["src"],
+//   "references": [{ "path": "./tsconfig.node.json" }]
+// }
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "lib": ["es2022", "DOM", "DOM.Iterable"],
+    "module": "NodeNext",
+    "moduleDetection": "force",
+    "moduleResolution": "NodeNext",
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022"
+  }
+  // "include": ["src"]
+}
